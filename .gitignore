@@ -1,0 +1,20 @@
+# Ignore the model file and environment file
+food_classifier_model.h5
+.env
+
+/food-101/*
+/train/*
+
+
+# Ignore all images in the food101 directory
+/food-101/**/*.jpg
+/food-101/**/*.jpeg
+/food-101/**/*.png
+/food101-/**/*.gif
+
+# Ignore specific directories
+/train/**/*.jpeg
+/val/**/*.jpeg
+
+# Ignore specific files
+/test.py
